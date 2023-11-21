@@ -18,7 +18,8 @@ module.exports = {
       },
       colors: {
         navBar:"#474747",
-        textWhite:"#ffffff"
+        textWhite:"#ffffff",
+        whiteBg:"#F9F9F7"
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+/* Hide navbar on screens smaller than 640px */
+@media (max-width: 640px) {
+  .social-icons {
+    display:block
+  }
+}

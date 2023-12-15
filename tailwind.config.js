@@ -26,7 +26,10 @@ module.exports = {
         red:"#AD343E",
         textColor:"#2C2F24",
         bgGray:"#474747",
-        textGreen:"#414536"
+        textGreen:"#414536",
+        textGray:"#737865",
+        textGrayy:"#414536"
+
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

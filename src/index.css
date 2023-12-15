@@ -45,3 +45,11 @@ code {
 .stanza-text{
   font-family: DM Sans;
 }
+
+.nav-hover{
+border-radius: 999px;
+
+}
+.nav-hover:hover{
+  background-color:#C8CDB9 ;
+}

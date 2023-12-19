@@ -109,27 +109,8 @@ const Home = () => {
             <img
               className="pt-[9vh] h-[70%] w-[88%]  "
               alt=""
-              src="./image.png"
+              src="./new.png"
             ></img>
-            {/* <div className="bg-bgGray px-2 py-3 rounded-lg  absolute top-[30vh] xl:left-[18vw] lg:left-[10vw]">
-              <h1 className="text-white text-start ml-[2vw] mt-[2vh] font-bold text-lg">
-                Come and visit us
-              </h1>
-              <div className="flex space-x-2 ml-8 mt-4">
-                <IoCallOutline color="white" className="mt-2" size="1.5em" />
-                <h1 className="text-white ml-6 mt-2">434 90983 308</h1>
-              </div>
-              <div className="flex space-x-2 ml-8 mt-4">
-                <MdOutlineEmail color="white" className="mt-2" size="1.5em" />
-                <h1 className="text-white ml-6 mt-1">
-                  happytummy@restaurent.com
-                </h1>
-              </div>
-              <div className="flex space-x-2 ml-8 mt-4">
-                <CiLocationOn color="white" className="mt-2" size="1.5em" />
-                <h1 className="text-white ml-6 mt-1">Chd</h1>
-              </div>
-            </div> */}
           </div>
 
           <div className="text-start xl:ml-[54px]  lg:ml-[6vw] md:ml-[4vw] sm:ml-[2vw] text-textColor mt-[8vh] font-bold xl:text-[42px] lg:text-[42px] md:text-[38px] sm:text-[34px] xs:ml-[14vw] xs:text-[34px] texxt-menu pb-[16vh] xxs:text-[30px] xxs:ml-[14vw]">

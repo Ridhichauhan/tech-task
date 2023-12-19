@@ -28,7 +28,9 @@ module.exports = {
         bgGray:"#474747",
         textGreen:"#414536",
         textGray:"#737865",
-        textGrayy:"#414536"
+        textGrayy:"#414536",
+        lightGray:"#DBDFD0",
+        limeGray:"#ADB29E"
 
       },
       backgroundImage: {

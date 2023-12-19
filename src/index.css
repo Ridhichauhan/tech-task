@@ -53,3 +53,7 @@ border-radius: 999px;
 .nav-hover:hover{
   background-color:#C8CDB9 ;
 }
+
+.text-styyle{
+  font-family: DM Sans;
+}

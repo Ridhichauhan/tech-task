@@ -2,6 +2,7 @@ import React,{useState} from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { IoIosMenu } from "react-icons/io";
 import { IoCallOutline, IoCloseSharp } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 export const Header = ({ name = "Home" ,logo="bistro bliss" }) => {
 
@@ -45,8 +46,13 @@ export const Header = ({ name = "Home" ,logo="bistro bliss" }) => {
           <h1 className="mt-2 font-style text-3xl font-bold">{logo}</h1>
         </div>
         <div className="flex 3xl:space-x-2  2xl:space-x-2 xl:space-x-2 lg:ml-[2vw]  lg:space-x-4 text-md mt-3 md:ml-[-4vw] md:space-x-4 sm:ml-[-4vw] sm:space-x-2">
+          <Link to="/home">
           <h1 className="nav-hover w-[6.5vw] h-[3vh]">{name}</h1>
+          </Link>
+         
+          <Link to="/about">
           <h1 className="nav-hover w-[6.5vw] h-[3vh]">About</h1>
+          </Link>
           <h1 className="nav-hover w-[6.5vw] h-[3vh]">Menu</h1>
           <h1 className="nav-hover w-[6.5vw] h-[3vh]">Pages</h1>
           <h1 className="nav-hover w-[7vw] h-[3vh]">Contact</h1>

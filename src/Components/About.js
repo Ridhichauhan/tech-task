@@ -8,6 +8,7 @@ const About = () => {
       <div>
         <Header name="Home" logo="bistro blast" />
       </div>
+      
       <div>
         <div className="xl:grid xl:grid-cols-2 lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 sm:grid sm:grid-cols-1 xl:pl-40 lg:pl-20 md:pl-10 sm:pl-8 xs2:pl-6 xs:pl-4 xs:pr-4 xxs:pl-4 xxs:pr-4 xs2:pr-4 pt-28 pb-28">
           <div className="">
@@ -128,22 +129,22 @@ const About = () => {
             </h1>
 
             <div className="grid grid-cols-2 gap-y-6 gap-x-3 pt-8 pr-10">
-             <card className="border text-center text-style border-lightGray xl:w-[263px] lg:w-[210px] h-[174px]">
-              <h1 className=" text-[34px] pt-8">3</h1>
-              <h1 className=" text-[24px]">Locations</h1>
-             </card>
-             <card className="border text-center text-style border-lightGray xl:w-[263px] lg:w-[210px] h-[174px]">
-              <h1 className=" text-[34px] pt-8">1995</h1>
-              <h1 className="text-[24px]">Founded</h1>
-             </card>
-             <card className="border border-lightGray text-center text-style  xl:w-[263px] lg:w-[210px] h-[174px]">
-              <h1 className=" text-[34px] pt-8">65+</h1>
-              <h1 className="text-[24px]">Staff Members</h1>
-             </card>
-             <card className="border  border-lightGray text-center text-style   xl:w-[263px] lg:w-[210px] h-[174px]">
-              <h1 className=" text-[34px] pt-8">100% </h1>
-              <h1 className="text-[24px]">Satisfied Customers</h1>
-             </card>
+              <card className="border text-center text-style border-lightGray xl:w-[263px] lg:w-[210px] h-[174px]">
+                <h1 className=" text-[34px] pt-8">3</h1>
+                <h1 className=" text-[24px]">Locations</h1>
+              </card>
+              <card className="border text-center text-style border-lightGray xl:w-[263px] lg:w-[210px] h-[174px]">
+                <h1 className=" text-[34px] pt-8">1995</h1>
+                <h1 className="text-[24px]">Founded</h1>
+              </card>
+              <card className="border border-lightGray text-center text-style  xl:w-[263px] lg:w-[210px] h-[174px]">
+                <h1 className=" text-[34px] pt-8">65+</h1>
+                <h1 className="text-[24px]">Staff Members</h1>
+              </card>
+              <card className="border  border-lightGray text-center text-style   xl:w-[263px] lg:w-[210px] h-[174px]">
+                <h1 className=" text-[34px] pt-8">100% </h1>
+                <h1 className="text-[24px]">Satisfied Customers</h1>
+              </card>
             </div>
           </div>
         </div>
@@ -152,8 +153,7 @@ const About = () => {
           <img className="w-[555px] h-[680px]" alt="" src="./hand.png"></img>
         </div>
       </div>
-       
-       
+
       <div className="pb-[10vh]">
         <h1 className="text-style text-[44px] mt-[6vh] ">
           What Our Customers Say
@@ -213,6 +213,7 @@ const About = () => {
           </card>
         </div>
       </div>
+
       <div>
         <Footer />
       </div>

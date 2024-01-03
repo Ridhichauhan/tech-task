@@ -17,21 +17,25 @@ module.exports = {
         "5xl": "3840px",
       },
       colors: {
-        navBar:"#474747",
-        textWhite:"#ffffff",
-        whiteBg:"#F9F9F7",
-        white:"#ffffff",
-        neutral:"#C8CDB9",
-        black:"#000000",
-        red:"#AD343E",
-        textColor:"#2C2F24",
-        bgGray:"#474747",
-        textGreen:"#414536",
-        textGray:"#737865",
-        textGrayy:"#414536",
-        lightGray:"#DBDFD0",
-        limeGray:"#ADB29E"
-
+        navBar: "#474747",
+        textWhite: "#ffffff",
+        whiteBg: "#F9F9F7",
+        white: "#ffffff",
+        neutral: "#C8CDB9",
+        black: "#000000",
+        red: "#AD343E",
+        textColor: "#2C2F24",
+        bgGray: "#474747",
+        textGreen: "#414536",
+        textGray: "#737865",
+        textGrayy: "#414536",
+        lightGray: "#DBDFD0",
+        limeGray: "#ADB29E",
+        green:"#05C167",
+        purered:"#F63440",
+        margenta:"#D70F64",
+        cyan:"#00CCBC",
+        lightgreen:"#43B02A"
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -41,7 +45,7 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
 
 // /** @type {import('tailwindcss').Config} */
 // module.exports = {

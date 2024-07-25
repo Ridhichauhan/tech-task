@@ -69,7 +69,7 @@ const Menu = () => {
           <img src="./waffles.png" alt=""></img>
         </card>
       </div>
-{/* 
+      {/* 
       <div className="bg-whiteBg">
         <div className="flex justify-around text-textColor">
           <div className="text-style  text-start font-semibold p-16 ">

@@ -8,7 +8,7 @@ const About = () => {
       <div>
         <Header name="Home" logo="bistro blast" />
       </div>
-      
+
       <div>
         <div className="xl:grid xl:grid-cols-2 lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 sm:grid sm:grid-cols-1 xl:pl-40 lg:pl-20 md:pl-10 sm:pl-8 xs2:pl-6 xs:pl-4 xs:pr-4 xxs:pl-4 xxs:pr-4 xs2:pr-4 pt-28 pb-28">
           <div className="">

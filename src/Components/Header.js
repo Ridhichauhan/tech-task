@@ -55,7 +55,10 @@ export const Header = ({ name = "Home", logo = "bistro bliss" }) => {
           <Link to="/menu">
             <h1 className="nav-hover w-[6.5vw] h-[3vh]">Menu</h1>
           </Link>
+          <Link to="/pages">
           <h1 className="nav-hover w-[6.5vw] h-[3vh]">Pages</h1>
+          </Link>
+        
           <h1 className="nav-hover w-[7vw] h-[3vh]">Contact</h1>
         </div>
 

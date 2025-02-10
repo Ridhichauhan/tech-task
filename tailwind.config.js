@@ -35,7 +35,8 @@ module.exports = {
         purered:"#F63440",
         margenta:"#D70F64",
         cyan:"#00CCBC",
-        lightgreen:"#43B02A"
+        lightgreen:"#43B02A",
+        gray:"#495460"
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
